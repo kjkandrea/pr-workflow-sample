@@ -1,10 +1,25 @@
 import View from './View.js'
 
-const HelloWorld = new View()
+const AlertButton = new View()
 
-HelloWorld.setUp = function (el) {
+AlertButton.setUp = function (el) {
   this.el = el
+  this.render().bindEvents()
   return this
 }
 
-export default HelloWorld
+AlertButton.render = function () {
+  this.el.innerText = 'Click Me!'
+  return this
+}
+
+AlertButton.bindEvents = function () {
+  this.el.addEventListener('click', this.nicotinamideAdenineDinucleotide)
+  return this
+}
+
+AlertButton.nicotinamideAdenineDinucleotide = function () {
+  alert('Click Button!')
+}
+
+export default AlertButton
