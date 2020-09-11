@@ -1,0 +1,22 @@
+{
+  "name": "pr-workflow-sample",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "lite-server --baseDir='./src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjkandrea/pr-workflow-sample.git"
+  },
+  "author": "andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjkandrea/pr-workflow-sample/issues"
+  },
+  "homepage": "https://github.com/kjkandrea/pr-workflow-sample#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
