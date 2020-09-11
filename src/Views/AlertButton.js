@@ -14,11 +14,11 @@ AlertButton.render = function () {
 }
 
 AlertButton.bindEvents = function () {
-  this.el.addEventListener('click', this.onClickSuperAwesomeNiceButton)
+  this.el.addEventListener('click', this.onClickButton)
   return this
 }
 
-AlertButton.onClickSuperAwesomeNiceButton = function () {
+AlertButton.onClickButton = function () {
   alert('Click Button!')
 }
 
