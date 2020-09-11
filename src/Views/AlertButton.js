@@ -14,11 +14,11 @@ AlertButton.render = function () {
 }
 
 AlertButton.bindEvents = function () {
-  this.el.addEventListener('click', this.nicotinamideAdenineDinucleotide)
+  this.el.addEventListener('click', this.onClickSuperAwesomeNiceButton)
   return this
 }
 
-AlertButton.nicotinamideAdenineDinucleotide = function () {
+AlertButton.onClickSuperAwesomeNiceButton = function () {
   alert('Click Button!')
 }
 
